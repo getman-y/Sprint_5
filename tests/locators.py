@@ -20,3 +20,8 @@ class Locator:
     CONSTRUCT_BUNS = (By.XPATH, './/span[text()="Булки"]')
     CONSTRUCT_SAUCES = (By.XPATH, './/span[text()="Соусы"]')
     CONSTRUCT_FILLINGS = (By.XPATH, './/span[text()="Начинки"]')
+    BUTTON_PROFILE = (By.XPATH, './/a[text()="Профиль"]')
+    TITLE_MAKE_BURGER = (By.XPATH, './/h1[text()="Соберите бургер"]')
+    NAME_OF_BUNS = (By.XPATH, "//div/ul[1]/a[1]/p[1]")
+    NAME_OF_SAUCES = (By.XPATH, "//div/ul[2]/a[1]/p[1]")
+    NAME_OF_FILLINGS = (By.XPATH, "//div/ul[3]/a[1]/p[1]")
